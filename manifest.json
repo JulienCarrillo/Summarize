@@ -1,0 +1,19 @@
+{
+  "manifest_version": 3,
+  "name": "Sumarize",
+  "description" : "Summarize any webpage in seconds! Get concise summaries using OpenAI's GPT-3. Boost your productivity and save time with this extension",
+  "version": "1.0",
+  "permissions": [
+    "activeTab",
+    "storage"
+  ],
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "Sumarize"
+  },
+  "options_page": "options.html",
+  "options_ui": {
+    "page": "options.html",
+    "open_in_tab": true
+  }
+}

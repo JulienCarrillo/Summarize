@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <link rel="stylesheet" href="option.css">
+    <title>Options</title>
+</head>
+<body>
+    <form>
+      
+        <label for="api-key">API Key:</label>
+        <div class="input">
+            <input type="text" id="api-key" name="api-key">
+            <button id="info-api-key" type="button">?</button>
+        </div>
+        <label for="max-tokens">Max tokens :</label>
+        <div class="input">
+            <select id="max-tokens" name="max-tokens">
+            <option value="100">100</option>
+            <option value="200">200</option>
+            <option value="300">300</option>
+            <option value="400">400</option>
+            <option value="500">500</option>
+            </select>
+            <button id="info-max-tokens"  type="button">?</button>
+        </div>
+        <label for="langue">Language</label>
+        <div class="input">
+            <select id="langue" name="langue">
+            <option value="fr">Français</option>
+            <option value="en">English</option>
+            <option value="es">Espanol</option>
+            </select>
+            <button id="info-langue" type="button" >?</button>
+        </div>
+        <button id="save-button">Save</button>
+      </form>
+    <script src="options.js"></script>
+</body>
+</html>

@@ -1,0 +1,78 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(60, 64, 67);
+  }
+  
+  form {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    color: white;
+    background-color: rgb(95, 99, 104);
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  label {
+    display: inline-block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  input[type="text"],
+  select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  button:active {
+    background-color: #3e8e41;
+  }
+  
+  #save-button {
+    margin-top: 20px;
+  }
+  .info-tooltip {
+    position: absolute;
+    top: 0;
+    left: calc(100% + 10px);
+    display: none;
+    width: 200px;
+    padding: 10px;
+    background-color: #f1f1f1;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px #ccc;
+    z-index: 1;
+  }
+  
+  .input-group:hover .info-tooltip {
+    display: block;
+  }
+
+  #info-button{
+    padding: 10px;
+    background: none;
+  }
+  .input{
+    display: flex;
+align-items: baseline;  }
